@@ -1,24 +1,24 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.cotainer{
-    background-color: gray;
-    padding: 20px;
-    margin-left: 40px;
+.my-div {
+  background-color: #bf0000;
+  padding: 50px;
+  margin-top: 12rem;
+  margin-left: 40px;
 }
 
-.my-div{
-    width: 100px;
-    height: 40px;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    text-align: center;
-    cursor: move;
-    border: 1px solid black;
+.draggable {
+  padding: 30px;
+  background-color: rgb(246, 225, 0);
+  border: 1px solid black;
+  cursor: move;
+}
+
+.draggable.dragging {
+  opacity: .5;
 }
